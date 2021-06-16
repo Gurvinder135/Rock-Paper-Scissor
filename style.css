@@ -1,0 +1,45 @@
+body{
+    font-family: 'Lacquer', cursive;
+    background-color: black;
+    color: white;
+}
+h1,h2, h4{
+    text-align: center;
+}
+    h1{
+        font-size: 4vw;
+    }
+    h4{
+        font-size: 2vw;
+    }
+    h2{
+        font-size: 3vw;
+    }
+
+.img{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    
+}
+.img1{
+    margin: 3vw;
+    cursor: pointer;
+}
+.player{
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    font-size: 3vw;
+}
+.player1{
+    margin: 0.7vw 5vw;
+align-self: center;
+}
+#you_score,#comp_score{
+    margin: 1vw 5vw 0vw;
+}
+#comment{
+    text-align: center;
+    font-size: 1.5vw;
+}
