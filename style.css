@@ -19,17 +19,21 @@ h1,h2, h4{
 .img{
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 18vw;
     
 }
 .img1{
     margin: 3vw;
     cursor: pointer;
+    transition: all 0.5s;
+}
+.img1:hover{
+    margin: 4vw;
 }
 .player{
     display: flex;
     justify-content: center;
-    height: 25vh;
+    height: 9vw;
     font-size: 3vw;
 }
 .player1{
@@ -37,9 +41,23 @@ h1,h2, h4{
 align-self: center;
 }
 #you_score,#comp_score{
-    margin: 1vw 5vw 0vw;
+    margin: 1vw 6vw 0vw;
 }
 #comment{
     text-align: center;
     font-size: 1.5vw;
+}
+#you_score{
+    padding-right: 5vw;
+}
+
+.win{
+    display: none;
+}
+.show{
+    display: block;
+    margin-top: 8vw;
+}
+.main1{
+    display: none;
 }

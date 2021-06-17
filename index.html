@@ -6,29 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Seasor</title>
-    
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <H1>MAN VS COMPUTER</H1>
-    <h4>DO YOU HAVE WHAT IT TAKES TO SAVE MANKINd?</h4>
-    <H2>CHOOSE YOUR WEAPON!</H2>
-    <div class="img">
-        <img src="rock.png" id="rock" class="img1" alt="">
-        <img src="paper.png" id="paper" class="img1" alt="">
-        <img src="scissor.png" id="scissor" class="img1" alt="">
+    <H1 class="win">MAN VS COMPUTER</H1>
+    <H4 class="reset">Press f5 to try agan</H4>
+    <div class="main">
+        <H1>MAN VS COMPUTER</H1>
+
+        <h4>Machines are threatening to take over the world...</h4>
+        <h4>
+            Unless you can defeat them in a game of rock paper scissors first to
+            5...
+        </h4>
+        <h4>DO YOU HAVE WHAT IT TAKES TO SAVE MANKINd?</h4>
+        <H2>CHOOSE YOUR WEAPON!</H2>
+        <div class="img">
+            <img src="rock.png" id="rock" class="img1" alt="">
+            <img src="paper.png" id="paper" class="img1" alt="">
+            <img src="scissor.png" id="scissor" class="img1" alt="">
+        </div>
+        <div class="player">
+            <div class="player1">YOU</div>
+            <div class="player1">COMPUTER</div>
+        </div>
+        <div class="player">
+            <div id="you_score">0</div>
+            <div id="comp_score">0</div>
+        </div>
+        <div id="comment">LETS START</div>
     </div>
-    <div class="player">
-        <div class="player1">YOU</div>
-        <div class="player1">COMPUTER</div>
-    </div>
-    <div class="player">
-        <div id="you_score">0</div>
-        <div id="comp_score">0</div>
-    </div>
-    <div id="comment">LETS START</div>
     <script src="script.js"></script>
 </body>
 
