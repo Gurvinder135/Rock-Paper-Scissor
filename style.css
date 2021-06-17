@@ -54,6 +54,9 @@ align-self: center;
 .win{
     display: none;
 }
+.reset{
+    display: none;
+}
 .show{
     display: block;
     margin-top: 8vw;
