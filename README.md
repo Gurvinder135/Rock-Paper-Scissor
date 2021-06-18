@@ -1,7 +1,7 @@
 
 # Rock, Paper, Scissors
 
-In this project I created a small game called Rock, Paper, Scissors. I used HTML, CSS and JAvscript in this project.
+In this project I created a small game called Rock, Paper, Scissors. I used HTML, CSS and Javscript in this project.
 
 
 ## launch
